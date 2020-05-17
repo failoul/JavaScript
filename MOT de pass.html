@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>mot de pass loging</title>
+    <script type="text/javascript">
+    function validate(){
+        var msg;     mdp="ta";
+        var mp=document.getElementById("mdp").value;
+        if(mp==mdp){
+            alert("bravo mot de pass correct");
+            window.location="sale.html"
+        }
+        else{
+            msg="<p style='color:red'>Mot de passe Uncorrect.</p>";
+            document.getElementById("msg").innerHTML=msg;
+        }
+    }
+    </script>
+</head>
+<body>
+    Entrez le mot de passe:<input type="password" id="mdp">
+    <button onclick="validate()">validate</button>
+    <span id="msg"></span>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

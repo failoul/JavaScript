@@ -1,0 +1,60 @@
+<html>
+    <head><title>programmes table Multiplication avec boule</title></head>
+    <style>
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            border: 1px solid red;
+        }
+         tr: hover{
+            background-color: #ddd;
+
+        }
+    </style>
+<body>
+<script type="text/javascript">
+var a,i;
+do{
+    a=prompt("Saisisez un nomre entier");
+}
+while(isNaN(a) ||a%1!==0);
+document.write("<h1>la table de multiplication du nombre :"+a+"</h1>")
+document.write("<table border  width= 10%  height= 10%>");
+                
+for(var i=1;i<=10;i++){
+    document.write("<tr>")
+    document.write("<td>"+a+"x"+i+"=</td>");
+    document.write("<td>"+a*i+"</td>");
+    document.write("</tr>");
+ 
+}
+document.write("</table>");
+
+
+
+</script>
+<p><h1>Bravo!!!!Opération table de Multiplication en javascript Reussie avec succes</h1></p>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
